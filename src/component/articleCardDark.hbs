@@ -1,0 +1,18 @@
+<div class="bloc_card">
+	{{#each articles}}
+		{{#with this}}
+			<div class="articles_card">
+			
+				<img src="{{photo}}" alt="Articles image" class="articles_image">
+
+				{{#if isNew}}
+					<div class="badge_articles">NEW</div>
+				{{/if}}
+			
+				<h2 class="articles_name">{{name}}</h2>
+				<p class="articles_description">{{description}}</p>
+				<a href="#" class="articles_button">Read All</a>
+			</div>
+		{{/with}}
+	{{/each}}
+</div>
