@@ -466,7 +466,7 @@ body {
 	}
 	
 
-	@media all and ( width < 700px) {
+	@media all and (width < 700px) {
 		.features_grid_4 {
 			grid-template-columns: 1fr 2fr ;
 		}
